@@ -1,0 +1,21 @@
+# ------------------------------------------
+# Configuration du serveur
+# ------------------------------------------
+remoteUser: XXX
+remoteIP: XXX # format(127.0.0.1 or somewhere.to.go.com)
+remotePort: 22
+sshKeyPath: '/home/sathi/.ssh/key'
+
+# ------------------------------------------
+# Configuration des backups
+# ------------------------------------------
+pathToBackupDir: "/somewhere/backups"
+pathWhereToSaveBackup: "/folder/where/backups/are/saved"
+directoryNameToBackup:
+  - "folder1"
+  - "folder2"
+
+# -------------------------------------------
+# Configuration de la récurence des backups
+# -------------------------------------------
+numberOfBackupToKeep: 3
